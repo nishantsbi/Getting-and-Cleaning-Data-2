@@ -2,6 +2,7 @@
 # url:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 # 1. Merges the training and the test sets to create one data set.
+setwd("/home/wangzh/Downloads/UCI HAR Dataset")
 
 tmp1 <- read.table("train/X_train.txt")
 tmp2 <- read.table("test/X_test.txt")
